@@ -37,10 +37,10 @@ from sklearn.metrics import (accuracy_score, f1_score, recall_score,
 # ──────────────────────────────────────────────
 
 DATASETS = {
-    "Original": "C:\\Users\\walid\\OneDrive\\Desktop\\walid\\Project\\dev\\python_inpt_project\\original_dataset.csv",
-    "CTGAN":    "C:\\Users\\walid\\OneDrive\\Desktop\\walid\\Project\\dev\\python_inpt_project\\ctgan_augmented_dataset.csv",
-    "TGAN":     "C:\\Users\\walid\\OneDrive\\Desktop\\walid\\Project\\dev\\python_inpt_project\\tgan_augmented_dataset.csv",
-    "TVAE":     "C:\\Users\\walid\\OneDrive\\Desktop\\walid\\Project\\dev\\python_inpt_project\\tvae_augmented_dataset.csv",
+    "Original": "original_dataset.csv",
+    "CTGAN":    "ctgan_augmented_dataset.csv",
+    "TGAN":     "tgan_augmented_dataset.csv",
+    "TVAE":     "tvae_augmented_dataset.csv",
 }
 
 LABEL_COL = "Label"
